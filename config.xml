@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.dev.Thoughts"
+        versionCode = "1"
+        version     = "1.0.0" >
+    <name>Inspirational Thoughts</name>
+    <description>
+    	Browse and search the great Inspirational thoughts of few great personalities of all time, and find solution to your problems easily.
+    </description>
+    <author href="" email="rupendrakumar148@gmail.com">
+    	dev
+    </author>
+    <preference name="phonegap-version" value="3.7.0" />
+    <!--default icon -->
+    <icon src="icon.png"/>
+</widget>

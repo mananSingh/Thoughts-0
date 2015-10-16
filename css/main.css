@@ -1,0 +1,79 @@
+h1 {
+    font-family:courier new;
+	text-shadow: 1.8px 5px 0.4px #bbb;
+}   
+div{
+	background: url("../images/diamond.png");
+	text-align: justify;
+}
+table img{
+     height:100px;
+	 width:100px;
+}
+table td{
+     font-family:courier new;
+	 font-size:15px;
+	 margin-left:30px;
+	
+}	
+.style{
+	 width:80%;
+	 float:left;
+} 
+#random-btn{
+	font-size: 1.5em;
+}
+#search-btn{
+	font-size: 1.25em;
+}
+#browse-btn{
+	font-size: 1.125em;
+}
+#about-btn{
+	font-size: 1.1em;
+}
+#title{
+	margin: 1.5em auto;
+	text-align: center;
+	font-size: 1.3em;
+	margin-bottom: 1em;
+	font-family:Courier New;
+}
+#anim{
+	margin: auto;
+	text-align: center;
+	width: 100%;
+}
+#menu{
+	margin: 1.5em auto;
+}
+#menu a{
+	margin: 2% auto;
+	text-align: center;
+	width: 40%;
+	max-width: 400px;
+	font-family:courier new;
+}
+#cloud{
+	text-align: center;
+	padding: 3%;
+}
+.allThoughts4Search{	
+}
+#randomQuote{
+	margin: 5px;
+	padding-bottom: 10px;
+}
+#ok-btn{
+	margin: auto;
+	width: 2em;
+	display: block;
+}
+#photo{
+	height: 15em;
+	width: 15em;
+	margin-top: auto;
+	margin-right: auto;
+	margin-left: 10%;
+	margin-bottom: 1em;
+}

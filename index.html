@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+<head>
+	<title>Inspirational Thoughts</title>
+	<meta charset="utf-8"/>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- jQuery resources, Replace it with CDN, if the app is online -->
+	<script src="jquery/jquery-2.1.4.min.js"></script>
+	<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+	<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css">
+
+	<script src="js/main.js"></script>
+	<link rel="stylesheet" href="css/main.css">
+</object>
+</head>
+<body style="font-family:courier new;">
+
+	<!--home page-->
+	<div id="home" data-role="page">
+		<div data-role="main" class="ui-content">	
+			<div id="title">
+				<h1 id="title">Inspirational Thoughts</h1>
+			</div>
+			<div id="anim">
+				<canvas id="myCanvas" height="40" width="200">
+					<!-- by JS -->
+				</canvas>
+			</div>
+			<div id="menu">				
+				<a id="random-btn" href="#random" class="ui-btn ui-shadow ui-corner-all ui-icon-star ui-btn-icon-left" onclick="randThoughtGen();">Random</a>
+				<a id="search-btn" href="#search" class="ui-btn ui-shadow  ui-icon-search ui-corner-all ui-btn-icon-left" onclick="allThoughtsGen();">Search</a>
+				<a id="browse-btn" href="#browse" class="ui-btn ui-shadow ui-corner-all ui-icon-grid ui-btn-icon-left" onclick="browseThoughtsGen();">Browse</a>
+				<a id="about-btn" href="#about" class="ui-btn ui-shadow ui-icon-info ui-corner-all ui-btn-icon-left">About</a>
+			</div>
+		</div>
+	</div><!--page-->
+
+	<!-- Search thoughts -->
+	<div id="search" data-role="page">
+		<div data-role="header">
+			<h1 style="font-size:30px;">&nbsp;Search</h1>
+			<a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-home ui-btn-left ui-btn-icon-notext" data-rel="back">Home</a>
+		</div>
+		<div data-role="main" class="ui-content">
+			<div id="allThoughts" class="elements" data-filter="true"  data-filter-reveal="true" data-filter-placeholder="search here..." >
+				...
+			</div>
+		</div>
+	</div>
+
+	<!-- Browse page -->
+	<div id="browse" data-role="page">
+		<div data-role="header">
+			<h1 style="font-size:30px;">Browse</h1>
+			<a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-home ui-btn-left ui-btn-icon-notext" data-rel="back">Home</a>
+		</div>
+		<div data-role="main" class="ui-content">
+			<div id="cloud">
+				...
+			</div>
+		</div>
+	</div>
+	
+	<!-- Tag wise thoughts -->
+	<div id="thoughts" data-role="page">
+		<div data-role="header">
+			<h1 style="font-size:30px;">Browse</h1>
+			<a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-back ui-btn-icon-notext" data-rel="back">Back</a>
+		</div>
+		<div data-role="main" class="ui-content">
+			<div id="thought-list">
+				...
+			</div>
+		</div>
+	</div>
+
+	<!-- random dialog-->
+	<div id="random" data-role="page"  data-dialog="true">
+		<div data-role="header">
+			<h1 style="font-size:15px;">Random Quote</h1>
+			<a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-home ui-btn-left ui-btn-icon-notext" data-rel="back">Home</a>
+		</div>
+		<div role="main" class="ui-content">	
+			<div id="randomQuote">
+				...randomQuote here...
+			</div>
+			<a id="ok-btn" href="#" data-role="button" data-inline="true" data-iconpos="right" data-rel="back">OK</a>
+		</div>
+	</div>
+
+	<!-- about page -->
+	<div id="about" data-role="page">
+		<div data-role="header">
+			<h1 style="font-size:30px;">About</h1>
+			<a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-home ui-btn-left ui-btn-icon-notext" data-rel="back">Home</a>
+		</div>
+		<div role="main" class="ui-content" style="font-family:courier new;">
+			<h5><u>About "Inspirational Thoughts"</u></h5>
+			<p>"Inspirational Thoughts" is an app that lets you explore, browse, and search the great words of wisdom (quotes &amp; thoughts) of some greatest personality persons. Here there selected thoughts are simple but incredible advices, you can easily find answers to various problems. For deep thinkers, these also serve as "Food-for-Thoughts".</p>
+	<table>
+        <tr>
+		<td ><img src="images/Abraham.jpg"/></td>
+		<td class="style"><b>Abraham Lincoln :- </b>16<sup>th</sup> President of United States.He preserved the Union,abolished slavery and modernized the economy.</td>
+		</tr
+		
+		<tr>
+		<td ><img src="images/Albert.jpg"/></td>
+		<td class="style"><b>Albert Einstein :- </b>He was the theoretical physicist.He developed the general theory of relativity and best known for his formula:- E = mc<sup>2</sup></td>
+		</tr>
+		
+		<tr>
+		<td ><img src="images/APJ.jpg"/></td>
+		<td class="style"><b>APJ Abdul Kalam :- </b>He was the 11<sup>th</sup> President of India.He was a Professor, Author, Aerospace Scientist and known as the missile man of India.</td>
+		</tr
+		
+		<tr>
+		<td ><img src="images/Bill.jpg"/></td>
+		<td class="style"><b>Bill Gates :- </b>He is an American Business magnate, philanthropist, investor, computer programmer and inventor.He is co-founder of Microsoft which is world largest software company.</td>
+		</tr>
+		
+		<tr>
+		<td ><img src="images/Charles.jpg"/></td>
+		<td class="style"><b>Charles Darwin :- </b>He was an English naturalist and geologist, best known for his contributions to evolutionary theory.</td>
+		</tr>
+		
+		<tr>
+		<td ><img src="images/Gautama.jpg"/></td>
+		<td class="style"><b>Gautama Buddha :- </b>The founder of Buddhism.He was the another form of lord Vishnu.</td>
+		</tr>
+		
+		<tr>
+		<td ><img src="images/John.jpg"/></td>
+		<td class="style"><b>John F. Kennedy :- </b>He was an American politician and 35<sup>th</sup> President of the United States.</td>
+		</tr>
+		
+		<tr>
+		<td ><img src="images/Mahatma.jpg"/></td>
+		<td class="style"><b>Mahatma Gandhi :- </b>He was father of nation of India.He was the preeminent leader of Indian independence movement.</td>
+		</tr>
+		
+		<tr>
+		<td ><img src="images/Marilyn.jpg"/></td>
+		<td class="style"><b>Marilyn Monroe :- </b>She is an American Singer best known for her 1985 hit duet with Phil Collins,"Separate Lives." </td>
+		</tr>
+		
+		<tr>
+		<td ><img src="images/Mother.jpg"/></td>
+		<td class="style"><b>Mother Teresa :- </b>She was a Roman Catholic religious sister and missionary.She founded the Missionary of Charity, a Roman Catholic religious congregation.</td>
+		</tr>
+		
+		<tr>
+		<td ><img src="images/Nelson.png"/></td>
+		<td class="style"><b>Nelson Mandela :- </b>He was 1<sup>st</sup> President of South Africa.He was an South Africa Anti-apartheid revolutionary, politician and philanthropist.</td>
+		</tr>
+		
+		<tr>
+		<td ><img src="images/Steve.jpg"/></td>
+		<td class="style"><b>Steve Jobs :- </b>He was an American businessman and best known as the co-founder, chairman and CEO of Apple Inc.Also known for Pioneer of the personal computer revolution.</td>
+		</tr>
+		
+		<tr>
+		<td ><img src="images/Swami.png"/></td>
+		<td class="style"><b>Swami Vivekanand :- </b>He was an Indian Hindu monk and founder of Ramakrishna Mission and Ramakrishna Math.He was introduced the Indian philosophies of Vedanta and Yoga to the Western world.</td>
+		</tr>
+		
+		<tr>
+		<td ><img src="images/Winston.jpg"/></td>
+		<td class="style"><b>Winston Churchill :- </b>He was the Prime Minister of the United Kingdom.He was a British statesman, Member of Parliament, solider, journalist, historian, author and painter.</td>
+		</tr>
+		
+	</table>	<br/><br/>
+               
+   <em>Note:</em>"Inspirational Thoughts" is an unofficial, fan-made, open source application, and the contents are taken from web sources like Wikipedia, Encyclopedia, Blogspot etc.
+		</div>
+	</div>
+				
+
+</body>
+</html>
+
+<!--
+	
+	<div id="browse" data-role="page">
+		<div data-role="header">
+
+		</div>
+		<div role="main" class="ui-content">
+
+		</div>
+		<div data-role="footer">
+			
+		</div>
+	</div>
+-->
