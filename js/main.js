@@ -1,6 +1,6 @@
  var tags = ["Abraham Lincoln", "Albert Einstein", "APJ Abdul Kalam","Bill Gates",
-           "Charles Darwin", "Gautama Buddha", "John F. Kennedy", "Mahatma Gandhi", 
-		   "Marilyn Monroe",  "Mother Teresa", "Nelson Mandela", "Steve Jobs", 
+           "Charles Darwin", "Gautama Buddha", "John F. Kennedy", "Mahatma Gandhi",
+            "Mother Teresa", "Nelson Mandela", "Steve Jobs", 
 		   "Swami Vivekanand", "Winston Churchill"];
 
 function allThoughtsGen(){

@@ -14,6 +14,7 @@ table td{
      font-family:courier new;
 	 font-size:15px;
 	 margin-left:30px;
+	text-align:left;
 	
 }	
 .style{
@@ -36,8 +37,7 @@ table td{
 	margin: 1.5em auto;
 	text-align: center;
 	font-size: 1.3em;
-	margin-bottom: 1em;
-	font-family:Courier New;
+	font-family:"Courier New";
 }
 #anim{
 	margin: auto;
@@ -45,7 +45,7 @@ table td{
 	width: 100%;
 }
 #menu{
-	margin: 1.5em auto;
+	margin: 2.5em auto;
 }
 #menu a{
 	margin: 2% auto;
