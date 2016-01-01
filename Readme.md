@@ -1,5 +1,5 @@
 # Inspirational Thoughts
-Browse and search the great Inspirational thoughts of few great personalities of all time, and find solution to your problems easily.
+Browse and search the great Inspirational thoughts of few great personalities of all time, and find solution to your problems easily. (Another App built upon "quotesDBengine")
 
 Download Android app - .apk [here](https://github.com/mananSingh/Thoughts-0/blob/master/0dist/InspirationalThoughts.apk?raw=true)
 
